@@ -1,0 +1,34 @@
+header {
+    padding: 5px;
+    margin: 5px;
+}
+
+nav {
+    padding: 5px;
+    margin: 5px;
+}
+
+a {
+    margin: 5px;
+}
+
+.with-border {
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
