@@ -1,0 +1,116 @@
+body {
+    /* width: 100vw; */
+}
+
+header {
+    /* width: 100vw; */
+    padding: 5px;
+    height: 40vh;
+    /* margin: 5px; */
+    /* background: black; */
+}
+
+nav {
+    padding: 5px;
+    margin: 5px;
+}
+
+a {
+    margin: 5px;
+}
+
+.direction-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.phone-div {
+    width: 350px;
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.with-wrap {
+    flex-wrap: wrap;
+}
+
+.image-placeholder{
+    width: 120px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.phone-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.phone-details p {
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 5px;
+}
+
+.phone-image {
+    height: 300px;
+    width: 300px;
+}
+
+.fs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+}
+
+form{
+    width: 500px;
+    margin: 15px;
+    font-size: 15px;
+}
+h3{
+    font-size: 25px;
+}
+
+button{
+    width: 100px;
+}
+.specs{
+height: 200px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2418304875.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./index.js"></script> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
+    <title>Refurbished Phones</title>
+</head>
+<body class="with-border">
+
+    <!-- header -->
+    <header class="with-border">
+
+        <!-- site login cart links -->
+        <div class="with-border direction-row space-between">
+            <div class="with-border">
+                <a href="#">Home</a>
+                <a href="#">Phones</a>
+                <a href="#">About us</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <input type="text" id="searchInput" placeholder="Search for phones...">
+                <button onclick="searchPhones()">Search</button>
+            </div>
+            <div>
+                <a href="#">Login</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Cart <span id="count"></span></a>
+            </div>
+        </div>
+        
+        <div class="direction-row space-between with-border">
+            <div  class="with-border">
+                <h1>ReFunkPhones</h1>
+            </div>
+        </div>
+    </header>
+
+    <div id="root"></div>
+    
+<footer>
+    <div class ="fs">
+    <div>
+        <h3>Leave a Review</h3>
+        <form>
+            <label for="reviewName">Name:</label>
+            <input type="text" id="reviewName" name="reviewName" required><br>
+            <label for="reviewRating">Rating:</label>
+            <input type="number" id="reviewRating" name="reviewRating" min="1" max="5" required><br>
+            <label for="reviewText">Review:</label><br>
+            <textarea id="reviewText" name="reviewText" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+
+    <div class="with-border social-media">
+        <a href="#" target="_blank" ><i class="fab fa-whatsapp" ></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</div>
+
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+

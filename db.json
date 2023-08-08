@@ -1,0 +1,45 @@
+{
+    "phone": [
+    {
+        "name": "Iphone 14",
+        "description": "Black",
+        "price": "USD655",
+        "image" :"IPhone_14.jpg",
+        "specs": [
+            "Processor: 4x 2.8 GHz Kryo 385, 4x 1.8 GHz Kryo 385, Cores: 8",
+            "RAM: 6 GB, 1866 MHz",
+            "Storage: 64 GB, 128 GB",
+            "Display: 5.4 in, AMOLED, 1080 x 2160 pixels, 24 bit",
+            "Camera: 4032 x 3024 pixels, 3840 x 2160 pixels, 60 fps",
+            "Battery: 3000 mAh, Li-Ion"
+        ]
+    },
+    {
+        "name": "Samsung Galaxy S21",
+        "description": "Purple",
+        "price": "USD329",
+        "image" :"SamsungS21.jpg",
+        "specs": [ 
+        "Display: 6.2 inches",
+        "Resolution:2400 x 1080 pixels, 20:9 ratio, 424 PPI",
+        "Technology:Dynamic AMOLED",
+        "Refresh rate:120Hz (adaptive)",
+        "Screen-to-body:86.06 %",
+        "Peak brightness: 1300 cd/m2 (nit)"
+        ]
+    },
+    {
+        "name": "Google pixel 3",
+        "description": "White",
+        "price": "USD102",
+        "image" : "Google_pixel_3.jpg",
+        "specs": [
+        "Processor: 4x 2.8 GHz Kryo 385, 4x 1.8 GHz Kryo 385, Cores: 8",
+        "RAM: 6 GB, 1866 MHz",
+        "Storage: 64 GB, 128 GB",
+        "Display: 5.4 in, AMOLED, 1080 x 2160 pixels, 24 bit",
+        "Camera: 4032 x 3024 pixels, 3840 x 2160 pixels, 60 fps",
+        "Battery: 3000 mAh, Li-Ion"
+        ]
+    }
+]}
