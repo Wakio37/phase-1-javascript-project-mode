@@ -153,11 +153,7 @@ Whatever top-level keys exist in your `db.json` file will determine the routes
 available. In the example above, since we have a key of `toys` pointing to an
 array of toy objects, `json-server` will generate the following routes:
 
-- `GET /toys`
-- `POST /toys`
-- `GET /toys/:id`
-- `PATCH /toys/:id`
-- `DELETE /toys/:id`
+- `GET /phones`
 
 You can consult the [json-server docs][] for more information.
 
